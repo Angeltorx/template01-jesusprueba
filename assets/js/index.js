@@ -103,19 +103,25 @@ let paises = [
 
 //console.log(paises);
 
-let nuervoArreglo= paises.map(pais=> {
+let nuevoArreglo= paises.map(pais=> {
     console.log(pais)
+    return pais;
 });
 
-
-
+console.log(`nuevoArreglo:`, nuevoArreglo);
  //.map crea un nuevo arreglo
+ //funciones de string en java script
 
 
+let edades = [10,17,18,19,25,35,46,55,70,80,99,150];
+let arregloNuevo = edades.map (edad=>{
+    if (edad >= 18 ){
+        return edad;
+    }
+});
 
-
-
-
+console.log(edades)
+console.log(arregloNuevo)
 
 
 
